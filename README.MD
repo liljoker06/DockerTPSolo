@@ -23,7 +23,7 @@ Le frontend communique avec le backend via l'URL de l'API injectée par fichier 
 2. Assurez-vous que le fichier `.env` est bien présent dans le dossier `frontend/` avec ce contenu :
 
 ```bash
-VITE_API_URL=http://backend:5000
+VITE_API_URL=http://localhost:5000
 ```
 
 3. Build et lancement des containers :
